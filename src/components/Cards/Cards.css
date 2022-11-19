@@ -1,0 +1,67 @@
+.card-container {
+  background: #f7f7f7;
+  margin: 3rem;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.card-list {
+  margin: 2rem auto;
+  list-style-type: none;
+  padding-inline-start: unset;
+}
+.housing-link {
+  position: relative;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.housing-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  filter: brightness(0.7);
+}
+
+.item-title {
+  color: white;
+  width: 10rem;
+  position: relative;
+  top: -7rem;
+  left: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 470px) {
+  .housing-image {
+    width: 15rem;
+    height: 15rem;
+  }
+  .housing-link {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .housing-image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .housing-link {
+    height: 10rem;
+  }
+
+  .item-title {
+    width: 6rem;
+    font-size: 0.7rem;
+    top: -4.5rem;
+  }
+}
